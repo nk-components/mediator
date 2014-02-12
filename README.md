@@ -1,0 +1,4 @@
+mediator
+========
+
+Mediator component
