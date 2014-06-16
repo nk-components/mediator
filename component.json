@@ -1,0 +1,16 @@
+{
+  "name": "mediator",
+  "repo": "nk-components/mediator",
+  "description": "Mediator module",
+  "version": "0.0.0",
+  "keywords": [
+    "mediator"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "component/emitter": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
