@@ -10,10 +10,16 @@ Install with [component(1)](http://component.io):
 $ component install nk-components/mediator
 ```
 
+With npm:
+
+```bash
+$ npm i -S nk-mediator
+```
+
 ## Usage
 
 ```js
-var mediator = require('mediator');
+var mediator = require('nk-mediator');
 
 function handler(param) {}
 
