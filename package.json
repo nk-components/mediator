@@ -1,6 +1,6 @@
 {
   "name": "nk-mediator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Mediator pattern",
   "main": "index.js",
   "repository": {
