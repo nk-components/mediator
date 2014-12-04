@@ -7,6 +7,8 @@ function Mediator() {}
 var medProto = Mediator.prototype;
 var emitProto = Emitter.prototype;
 
+Emitter(medProto);
+
 medProto.sub = emitProto.on;
 medProto.subOnce = emitProto.once;
 medProto.unsub = emitProto.off;
