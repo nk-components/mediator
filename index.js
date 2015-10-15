@@ -1,6 +1,11 @@
 'use strict';
 
-var Emitter = require('emitter');
+var Emitter;
+try {
+  Emitter = require('emitter');
+} catch(e) {
+  Emitter = require('component-emitter');
+}
 
 function Mediator() {}
 
